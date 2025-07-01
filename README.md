@@ -1,2 +1,3 @@
 # requirement-analysis
-Requirement Analysis in Software Development
+
+The purpose of this repository is to initiate the documentation requirement of the StayEase project (AirBnB clone)
