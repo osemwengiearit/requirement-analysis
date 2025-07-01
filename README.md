@@ -6,7 +6,7 @@ The purpose of this repository is to initiate the documentation requirement of t
 
 Requirement analysis is part of the foundational stage of every Software Development Lifecylce (SDLC). It involves engaging users, sponsors and the development team to establish pain points, needs, expectations and proposed solutions. The process will help eliminate gaps in understanding, provide a scope for the project, the cost and time involved.This requirement analysis seeks to highlight the needs or expectations of stakeholders of StayEase (AirBnB Clone). In essence it is a meeting of the minds session to ensure all stakeholders are on the same level of understanding.
 
-### Importance in the Software Development Lifecycle (SDLC):
+## Why is Requirement Analysis Important?
 
 Requirement Analysis is paramount for the success of any software project because it lays the foundation for all subsequent phases. Its importance cannot be overstated for several reasons:
 
@@ -53,8 +53,22 @@ The Requirement Analysis phase comprises several interconnected activities, each
     - **Process Modeling:** Mapping out business processes to identify system touchpoints.
 
 - **Requirement Validation:**
+
   - The final critical step is to ensure that the documented requirements are correct, complete, consistent, feasible, and truly reflect the stakeholders' needs. This activity aims to catch errors before design and development begin. Techniques include:
+
     - **Reviews and Walkthroughs:** Stakeholders and team members review the documented requirements.
     - **Prototyping/Mock-ups:** Presenting visual representations to stakeholders for feedback.
     - **Testing against Requirements:** Planning how requirements will be tested later in the SDLC.
     - **Scenario Analysis:** Walking through various user scenarios to ensure all paths are covered.
+
+    ## Types of Requirements
+
+### Functional Requirements
+
+- Functional requirements descibe what the system should do.
+- Example, User loggins and how they will be authenticated
+
+### Non-Functional Requirements
+
+- Non-functional requirements describe how the system should perform.
+- Example, loading time and responsiveness
