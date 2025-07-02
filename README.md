@@ -90,3 +90,9 @@ Use Case Diagrams are behavioral Unified Modeling Language (UML) diagrams that p
 - **Communication Tool:** Use case diagrams serve as an excellent communication tool between stakeholders, analysts, designers, and developers, fostering a shared understanding of system requirements.
 - **Foundation for Testing:** Each use case can be a basis for developing test cases, ensuring that all defined functionalities are thoroughly validated.
 - **User-Centric Design:** They promote a user-centric approach to design by focusing on the interactions and goals of the end-users.
+
+## Acceptance Criteria
+
+Acceptance Criteria are a set of conditions that a software system, or a specific feature within it, must satisfy to be accepted by a user, a customer, or other authorized stakeholders. They are the "conditions of satisfaction" that define precisely when a piece of work is complete and correct from the perspective of the business and end-users.
+
+They are typically written in a clear, unambiguous, and testable format, often following the Given/When/Then (GWT) structure, making them understandable by both technical and non-technical team members.
