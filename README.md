@@ -96,3 +96,14 @@ Use Case Diagrams are behavioral Unified Modeling Language (UML) diagrams that p
 Acceptance Criteria are a set of conditions that a software system, or a specific feature within it, must satisfy to be accepted by a user, a customer, or other authorized stakeholders. They are the "conditions of satisfaction" that define precisely when a piece of work is complete and correct from the perspective of the business and end-users.
 
 They are typically written in a clear, unambiguous, and testable format, often following the Given/When/Then (GWT) structure, making them understandable by both technical and non-technical team members.
+
+## The importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance Criteria play a pivotal role in the Requirement Analysis phase and throughout the SDLC:
+
+- **Clarifies Requirements:** They eliminate ambiguity by providing precise details on the expected behavior of a feature, leaving no room for misinterpretation.
+- **Defines "Done":** They provide a clear, objective benchmark for when a feature or user story is considered complete and ready for acceptance.
+- **Guides Testing:** QA engineers can directly translate acceptance criteria into test cases, ensuring comprehensive testing that directly verifies stakeholder needs.
+- **Manages Expectations:** By explicitly stating what will and will not be delivered, they help manage stakeholder expectations and prevent scope creep.
+- **Facilitates Communication:** They serve as a common language, ensuring developers, testers, and business stakeholders have a shared understanding of what needs to be built.
+- **Reduces Rework:** By catching potential misunderstandings early in the requirements phase, they significantly reduce the need for costly rework later in the development cycle.
