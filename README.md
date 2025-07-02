@@ -72,3 +72,7 @@ The Requirement Analysis phase comprises several interconnected activities, each
 
 - Non-functional requirements describe how the system should perform.
 - Example, loading time and responsiveness
+
+## Use Case Diagrams
+
+Use Case Diagrams are behavioral Unified Modeling Language (UML) diagrams that provide a high-level, graphical representation of how users (actors) interact with a system to achieve specific goals (use cases). They show the functionality of a system from the user's perspective, without delving into the internal details of how that functionality is implemented.
