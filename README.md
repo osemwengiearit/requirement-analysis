@@ -75,6 +75,9 @@ The Requirement Analysis phase comprises several interconnected activities, each
 
 ## Use Case Diagrams
 
+![alx-booking-uc.png]
+(alx-booking-uc.png)
+
 Use Case Diagrams are behavioral Unified Modeling Language (UML) diagrams that provide a high-level, graphical representation of how users (actors) interact with a system to achieve specific goals (use cases). They show the functionality of a system from the user's perspective, without delving into the internal details of how that functionality is implemented.
 
 ## Benefits of Use Case Diagrams:
@@ -88,6 +91,3 @@ Use Case Diagrams are behavioral Unified Modeling Language (UML) diagrams that p
 ## Use Case Diagram Example for a Booking System:
 
 Below is a Use Case Diagram illustrating core functionalities for a generic booking management system, similar to a hotel or flight booking application. It depicts the primary actors and the key interactions they have with the system.
-
-![alx-booking-uc.png]
-(alx-booking-uc.png)
