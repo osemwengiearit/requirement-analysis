@@ -75,8 +75,7 @@ The Requirement Analysis phase comprises several interconnected activities, each
 
 ## Use Case Diagrams
 
-![alx-booking-uc.png]
-(alx-booking-uc.png)
+![![alt text](alx-booking-uc.png)]
 
 Use Case Diagrams are behavioral Unified Modeling Language (UML) diagrams that provide a high-level, graphical representation of how users (actors) interact with a system to achieve specific goals (use cases). They show the functionality of a system from the user's perspective, without delving into the internal details of how that functionality is implemented.
 
