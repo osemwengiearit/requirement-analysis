@@ -76,3 +76,11 @@ The Requirement Analysis phase comprises several interconnected activities, each
 ## Use Case Diagrams
 
 Use Case Diagrams are behavioral Unified Modeling Language (UML) diagrams that provide a high-level, graphical representation of how users (actors) interact with a system to achieve specific goals (use cases). They show the functionality of a system from the user's perspective, without delving into the internal details of how that functionality is implemented.
+
+## Benefits of Use Case Diagrams:
+
+- **Clarity and Simplicity:** They offer a straightforward way to understand the system's functionality from a user's point of view, making them accessible to both technical and non-technical stakeholders.
+- **Scope Definition:** They clearly define the boundaries of the system and what functionalities it will (and will not) provide.
+- **Communication Tool:** Use case diagrams serve as an excellent communication tool between stakeholders, analysts, designers, and developers, fostering a shared understanding of system requirements.
+- **Foundation for Testing:** Each use case can be a basis for developing test cases, ensuring that all defined functionalities are thoroughly validated.
+- **User-Centric Design:** They promote a user-centric approach to design by focusing on the interactions and goals of the end-users.
