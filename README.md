@@ -107,3 +107,37 @@ Acceptance Criteria play a pivotal role in the Requirement Analysis phase and th
 - **Manages Expectations:** By explicitly stating what will and will not be delivered, they help manage stakeholder expectations and prevent scope creep.
 - **Facilitates Communication:** They serve as a common language, ensuring developers, testers, and business stakeholders have a shared understanding of what needs to be built.
 - **Reduces Rework:** By catching potential misunderstandings early in the requirements phase, they significantly reduce the need for costly rework later in the development cycle.
+
+## Example Acceptance Criteria: Checkout Feature
+
+Let's consider a `Checkout` feature in a booking management system (like a hotel booking app).
+
+**User Story:**
+As a user, I want to securely complete my booking so that I can receive confirmation and ensure my reservation is finalized.
+
+**Acceptance Criteria (for the Checkout feature):**
+
+- **Scenario 1: Successful Payment and Booking Confirmation**
+
+  - **Given** the user is on the Checkout page with valid booking details (e.g., selected room, dates, guest info) and has entered valid payment information (e.g., credit card number, expiry, CVV).
+  - **When** the user clicks the "Confirm Booking" button.
+  - **Then** the system securely processes the payment.
+  - **And** the system displays a "Booking Confirmed" page with a unique booking ID.
+  - **And** an automated booking confirmation email is sent to the user's registered email address, containing all booking details.
+  - **And** the booked room's availability is immediately updated in the system's inventory.
+  - **And** the booking details are accessible in the user's "My Bookings" section.
+
+- **Scenario 2: Invalid Payment Details**
+
+  - **Given** the user is on the Checkout page with valid booking details.
+  - **When** the user enters invalid payment information (e.g., incorrect card number, expired date, wrong CVV) and clicks "Confirm Booking".
+  - **Then** the system does not process the payment.
+  - **And** the system displays a clear, user-friendly error message indicating the specific payment issue (e.g., "Invalid card number," "Card expired").
+  - **And** the user remains on the Checkout page, allowing them to correct the details.
+
+- **Scenario 3: Payment Gateway Failure**
+  - **Given** the user is on the Checkout page with valid booking and payment details.
+  - **When** the user clicks "Confirm Booking" and the payment gateway experiences an outage or error.
+  - **Then** the system does not process the payment.
+  - **And** the system displays an informative error message indicating a temporary issue (e.g., "Payment system currently unavailable. Please try again later or contact support.").
+  - **And** the booking is not finalized, and the room's availability remains unchanged.
